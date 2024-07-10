@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* reset */
 * {
     margin: 0px;
@@ -218,7 +222,7 @@ iframe {
     opacity: 0.9;
 }
 
-.input-content{
+.input-content {
     max-width: 912px;
 }
 
@@ -229,7 +233,7 @@ iframe {
     outline: 0px;
 }
 
-.bg-btn{
+.bg-btn {
     background-color: #ffffff;
     outline: 0px;
     border: 0px;
@@ -239,5 +243,16 @@ iframe {
 /* input field ends here */
 
 /* footer section starts here */
+#footer {
+    margin-top: 48px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 62px 0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* footer section ends here */
