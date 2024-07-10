@@ -2,6 +2,7 @@
 
 body {
     font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
 }
 
 * {
@@ -10,19 +11,15 @@ body {
     box-sizing: border-box;
 }
 
-.primary-color {
-    color: rgb(13, 19, 33);
-}
-
 .fw-bold {
     font-weight: 800;
 }
 
-.lh {
+.lh-xxl {
     line-height: 68px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -30,6 +27,37 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin: 16px 0px;
+}
+
+.text-style {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.btn-more {
+    color: rgb(13, 19, 33);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    padding: 12px 20px 12px 20px;
+    margin: 16px 2px;
+    cursor: pointer;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border: 1px solid red;
 }
 
 /* banner section starts here */
@@ -43,7 +71,7 @@ body {
     align-items: center;
 }
 
-.banner-info{
+.banner-info {
     max-width: 998px;
     height: 582px;
 }
@@ -67,4 +95,43 @@ body {
     background-color: #45a049;
 }
 
-/* /* banner section endss here */ 
+/* banner section ends here */
+
+/* development section starts here */
+
+.sub-container {
+    max-width: 946px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin: 32px 0px;
+    padding: 48px;
+    gap: 110px;
+}
+
+.text-section {
+    flex: 1;
+}
+
+.image-section {
+    flex: 1;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.text-section2 {
+    flex: 5 !important;
+}
+
+.image-section2 {
+    flex: 2 !important;
+}
+
+/* development section ends here */
